@@ -7,7 +7,7 @@ Caso de estudio de la web Yuzin (https://yuzin.com/) realizado por Pedro Padilla
 
 # Análisis de accesibilidad
 
-# Análisis de usabilidad
+# Reporte de usabilidad
 ### Resumen ejecutivo
   
    Este estudio ha sido realizado por el grupo DIU1.ToxicidadFuera, compuesto por Pedro Padilla Reyes y Pablo Francisco Martínez Puga, alumnos de la asignatura Diseño de Interfaces de Usuario del grado de Ingeniería Informática en la Universidad de Granada. 
@@ -62,7 +62,7 @@ Caso de estudio de la web Yuzin (https://yuzin.com/) realizado por Pedro Padilla
   Los resultados de los usuarios que han probado MeetUs reflejan que la aplicación es funcional y adecuada para varias edades, sin embargo para algunos usuarios resulta demasiado grande al recorrerla y pensaban que iba a ser más fácil navegar por ella, debido a su gran número de opciones . La valoración media es favorable y denota una usabilidad aceptable.
 
 
-## Conclusiones de usabilidad
+### Conclusiones de usabilidad
 
   Los resultados de los usuarios que han probado MeetUs son bastante consistentes y parecen divididos en dos grupos, reflejan que la aplicación es funcional y adecuada para varias edades, pero para algunos usuarios resulta demasiado grande al recorrerla y pensaban que iba a ser más fácil navegar por ella, tal vez debido a un gran número de páginas u opciones que pueden resultar contraproducentes al hacer el sitio complejo y agobiar al usuario.
   
