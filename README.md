@@ -2,10 +2,11 @@
 Caso de estudio de la web Yuzin (https://yuzin.com/) realizado por Pedro Padilla Reyes para el trabajo final de la asignatura Diseño de Interfaces de Usuario, parte de la rama de Ingeniería del Software en el grado de Ingeniería Informática en la Universidad de Granada.
 
 # Persona y journey map
-He elegido a una versión editada de una de las personas que tenía en prácticas, busca realizar un viaje con su familia en el que quiere hacer distintas actividades y  usará la web para buscarlas.
+Realizaré una posible experiencia de usuario de una persona imaginaria para ver los posibles problemas que tenga la web.
+He elegido a una versión editada de una de las personas que tenía en prácticas, busca realizar un viaje con su familia en el que quiere hacer distintas actividades y usará la web para buscarlas, esta es su ficha personal:
 ![imagen](https://user-images.githubusercontent.com/79611016/122656254-0c161380-d159-11eb-81bc-678deb626919.png)
 
-Un resumen del journey map sería: quiere ver eventos y actividades culturales en la web, probablemente para viajar a Sevilla, se da cuenta de que la web está un poco desordenada pero hay un buscador de qué quieres ver en la pantalla de inicio, intenta buscar eventos en julio en Sevilla, entonces ve que no hay ninguno, busca en agosto y no hay ninguno, cada vez que busca se le reinician y se agobia, y prueba a buscar con todos los eventos y todas las fechas en Sevilla y tampoco hay. Prueba a pinchar en espacios culturales y ahí aparecen sitios pero no eventos, entonces pincha en agenda cultural y ahí aparecen eventos. 
+Una descripción del journey map, que nos muesstra su posible experiencia con la web, sería: quiere ver eventos y actividades culturales en la web, probablemente para viajar a Sevilla, se da cuenta de que la web está un poco desordenada pero hay un buscador de qué quieres ver en la pantalla de inicio, intenta buscar eventos en julio en Sevilla, entonces ve que no hay ninguno, busca en agosto y no hay ninguno, cada vez que busca se le reinician y se agobia, y prueba a buscar con todos los eventos y todas las fechas en Sevilla y tampoco hay. Prueba a pinchar en espacios culturales y ahí aparecen sitios pero no eventos, entonces pincha en agenda cultural y ahí aparecen eventos. 
 Hace click en un evento, aunque sea en Granada está harta y le da igual, ve que aparecen dos precios diferentes y no sabe por qué y encima dice que hay que contactar por whatsapp una vez reservada. Se cansa y cierra la web, buscará de otra manera actvidades en su viaje.
 
 
