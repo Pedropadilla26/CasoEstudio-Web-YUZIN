@@ -2,6 +2,8 @@
 Caso de estudio de la web Yuzin (https://yuzin.com/) realizado por Pedro Padilla Reyes para el trabajo final de la asignatura Diseño de Interfaces de Usuario, parte de la rama de Ingeniería del Software en el grado de Ingeniería Informática en la Universidad de Granada.
 
 # Persona y journey map
+![imagen](https://user-images.githubusercontent.com/79611016/122656254-0c161380-d159-11eb-81bc-678deb626919.png)
+
 
 # Ausencia de landing page
 
