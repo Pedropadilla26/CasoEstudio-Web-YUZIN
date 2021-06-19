@@ -9,12 +9,28 @@ He elegido a una versión editada de una de las personas que tenía en práctica
 Una descripción del journey map, que nos muesstra su posible experiencia con la web, sería: quiere ver eventos y actividades culturales en la web, probablemente para viajar a Sevilla, se da cuenta de que la web está un poco desordenada pero hay un buscador de qué quieres ver en la pantalla de inicio, intenta buscar eventos en julio en Sevilla, entonces ve que no hay ninguno, busca en agosto y no hay ninguno, cada vez que busca se le reinician y se agobia, y prueba a buscar con todos los eventos y todas las fechas en Sevilla y tampoco hay. Intenta descargarse la revista pero no funciona para Sevilla, le lleva a una de hace mas de medio año.  Prueba a pinchar en espacios culturales y ahí aparecen sitios pero no eventos, entonces pincha en agenda cultural y ahí aparecen eventos. 
 Hace click en un evento, aunque sea en Granada está harta y le da igual, ve que aparecen dos precios diferentes y no sabe por qué y encima dice que hay que contactar por whatsapp una vez reservada. Se cansa y cierra la web, buscará de otra manera actvidades en su viaje.
 
+Está claro que hemos detectado problemas de la web con este journey map que mencionaremos en el análisis de usabilidad.
 
 # Ausencia de landing page
-He visto que, aparte de los demás problemas detectados obviamente en el apartado anterior, la página inicial tiene una sobrecarga de información y es visualmente muy poco atractiva en cuanto a saber donde están las cosas, aunque está muy bien el buscador, pero especialmente para los usuarios poco experimentados en tecnología puede resultar dificil. Por eso he hecho, no una landing page en sí pero sí una página inicial que creo que, siguiendo el diseño de la web y con pocos cambios, mejora esa primera impresión:
+He visto que, aparte de los demás problemas detectados obviamente en el apartado anterior, la página inicial tiene una sobrecarga de información y es visualmente muy poco atractiva en cuanto a saber donde están las cosas, aunque está muy bien el buscador, pero especialmente para los usuarios poco experimentados en tecnología puede resultar dificil. Por eso he hecho una propuesta de, no una landing page en sí pero sí una página inicial que creo que, siguiendo el diseño de la web y con pocos cambios, mejora esa primera impresión:
 ![imagen](https://user-images.githubusercontent.com/79611016/122657531-8f893200-d164-11eb-9a9b-c5f6a4d74e11.png)
 
 # Análisis de accesibilidad
+Haré varias pruebas de accesibilidad en la web, dependiendo de distintas posibles necesidades.
+
+Persona sin visión: necesita un modelo text-to-speech, no hay en la web.
+
+Persona con poca visión: necesita acercar la web para ver más grande el texto, no es posible acercarlo sin destrozar la visión de la web.
+
+Persona con dislexia: no ve bien la web, hay palabras que cree que está equivocándose pero resulta que tienen faltas en la propia web.
+
+Persona con problemas de movilidad: aunque tiene dificultad para moverse por toda la WWW, esta web no supone un problema especial.
+
+Opciones de accesibilidad: no disponibles.
+
+Opciones de ayuda y contacto: sí están disponibles y a la vista.
+
+En general vemos que la accesibilidad no es algo que se haya tenido especialmente en cuenta a la hora de hacer el re-diseño web.
 
 # Reporte de usabilidad
 ### Resumen ejecutivo
