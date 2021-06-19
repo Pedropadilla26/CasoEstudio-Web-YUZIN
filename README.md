@@ -26,67 +26,65 @@ Persona con dislexia: no ve bien la web, hay palabras que cree que está equivoc
 
 Persona con problemas de movilidad: aunque tiene dificultad para moverse por toda la WWW, esta web no supone un problema especial.
 
+En la pantalla principal hay un banner que va cambiando, y uno de los mensajes al pasar por encima tiene demasiado poco contraste, casi no se ve.
+
 Opciones de accesibilidad: no disponibles.
 
 Opciones de ayuda y contacto: sí están disponibles y a la vista.
 
+Pruebas con WAVE:
+- Vemos que hay 22 errores de contraste
+- 5 errores de etiquetas, texto alternativo y un botón vacío
+- Varios textos redundantes, imágenes sin descripción y botones sin etiquetas (este apartado es muy importante para la función de texto hablado para las personas ciegas, porque aunque usen una aplicación propia para eso no podrán leer la web)
+- La estructura está ordenada
+- No hay más idiomas
+
 En general vemos que la accesibilidad no es algo que se haya tenido especialmente en cuenta a la hora de hacer el re-diseño web.
 
-# Reporte de usabilidad
+# Reporte y análisis de usabilidad
 ### Resumen ejecutivo
   
-   Este estudio ha sido realizado por el grupo DIU1.ToxicidadFuera, compuesto por Pedro Padilla Reyes y Pablo Francisco Martínez Puga, alumnos de la asignatura Diseño de Interfaces de Usuario del grado de Ingeniería Informática en la Universidad de Granada. 
-
-  Para la realización de los cuestionarios SUS se ha escogido a 10 personas reales conocidas por el equipo, las cuales han procedido a realizar un cuestionario anónimo mediante Google Forms después de ver la demostración mediante video de la aplicación y sin conocimiento de cómo o quién realizó las aplicaciones. De estas personas, cinco hicieron el formulario para MeetUs y las otras cinco el de ViajesP&P.
-  
-  Con este documento se realizará la evaluación de usabilidad mediante un A/B testing y un cuestionario SUS anónimo, extrayendo las conclusiones sobre este apartado de las aplicaciones.
+  He realizado un cuestionario SUS yo mismo y otra persona sobre la web, veremos la evaluación definitiva que recibe con ello, más tarde expondré los problemas principales que veo que tiene la web y las posibles soluciones.
   
 ### Metodología
 
-  Los participantes son personas conocidas al equipo, con diferentes perfiles para intentar darle fiabilidad al estudio (aunque con un número de muestra de 5 personas poco se puede concluir).
-
-  Después de que los participantes sean informados de la encuesta y acepten realizarla, se les muestra un vídeo con el prototipo de la aplicación para que obtenga una idea general de cómo sería el funcionamiento. Debido a que no existe un prototipo publicado de esta, es la única referencia que les hemos podido mostrar.
-
+  Los participantes son el mismo estudiante que hace el análisis y otra persona, con la intención de darle algo más de objetividad aunque lo óptimo sería que fueran muchos más.
+  Después de que los participantes sean informados de la encuesta y acepten realizarla, prueban la web haciendo clicks en más o menos todo lo que vean y entonces proceden a realizar la encuesta.
   La encuesta que se les manda para realizar anónimamente a continuación es una copia modificada de la proporcionada por los profesores, incluyendo una pregunta de estudios y un resumen de en qué consiste la encuesta.
 
   En ese momento el participante se dispone a realizar la encuesta, que consiste en algunas preguntas generales sobre el usuario y, posteriormente, 10 preguntas con afirmaciones sobre su sensación con respecto a la aplicación valorables de 1 a 5, las cuales son las preguntas normales de cuestionarios SUS, que aparecen más abajo en este documento.
 
   El cálculo de la puntuación SUS se ha obtenido mediante la tabla excel para calcular proporcionada por el [GitHub mgea/DIU21](https://github.com/mgea/DIU21).
 
-
-## Caso 2: MeetUS
-
-### Descripción:
-  MeetUs consiste en una aplicación móvil dedicada a la realización de actividades en Granada. Permite a los usuarios crear, organizar, participar, y proponer actividades de todo tipo, formando grupos con otras personas con los mismos intereses y gustos. La finalidad se basa en conocer más a fondo la provincia de Granada y hacerlo en presencia de una gran compañía. [Consulta su GitHub aquí](https://github.com/angelsc21/DIU21)
-
 ### Usuarios de testeo  
 | #id. usuario | Sexo/edad      | Ocupación   | Estudios | Experiencia internet | Plataforma                          | Prototipo elegido | SUS score |
 |--------------|----------------|-------------|----------------------------------------------------------------|----------------------|-------------------------------------|-------------------|-----------|
-|            1 | Hombre (16-30) | Estudiante  |          Bachillerato                | Intermedio           | Windows, Android          | MeetUS            |  (95)    |
-|            2 | Mujer (45-60)  | Traductora |           Universitarios                   | Avanzado             | Window, IOS, Tablet | MeetUS             | (72,5)|
-|            3 | Hombre (45-60) | Autonomo|           Grado medio          | Intermedio                | Windows,Android                     | MeetUS             |  (47,5)    |
-|            4 | Hombre (16-30)  | Estudiante  |          Bachillerato              | Avanzado           | Windows/Linux, Android |            MeetUS              |      (70)        |
-|            5 | Hombre (16-30)  | Estudiante     |             Universitarios           | Intermedio           |  Windows, Android                     | MeetUS             | (52,5)    |
+|            1 | Hombre (16-30) | Estudiante  |          Bachillerato                | Intermedio           | Windows, Android          | Yuzin            |  (95)    |
+|            2 | Mujer (45-60)  | Enfermera |           Universitarios                   | Intermedio             | Window, IOS, Tablet | Yuzin             | (47,5)|
+  |
 
 
 ### Resultado del cuestionario SUS
-|    | PREGUNTAS                                                                                |  6 | 7 | 8 | 9 | 10 |
-|----|------------------------------------------------------------------------------------------|:--:|:--:|:--:|:--:|:--:|
-|  1 | Creo que me gustará visitar con frecuencia este website                                  |  4 |  4 |  4 |  4 |  2 |
-|  2 | Encontré el website innecesariamente complejo                                            |  1 |  1 |  4 |  2 |  3 |
-|  3 | Pensé que era fácil utilizar este website                                                |  5 |  5 |  4 |  3 |  3 |
-|  4 | Creo que necesitaría del apoyo de un experto para recorrer el website                    |  1 |  1 |  1 |  2 |  3 |
-|  5 | Encontré las funciones del website bastante bien integradas                              |  5 |  5 |  4 |  3 |  2 |
-|  6 | Pensé que había demasiada inconsistencia en el website                                   |  1 |  1 |  1 |  2 |  2 |
-|  7 | Imagino que la mayoría de las personas aprenderían muy rápidamente a utilizar el website |  5 |  5 |  4 |  4 |  3 |
-|  8 | Encontré el website muy grande al recorrerlo                                             |  2 |  2 |  4 |  2 |  2 |
-|  9 | Me sentí muy confiado en el manejo del website                                           |  5 |  5 |  4 |  3 |  3 |
-| 10 | Necesito aprender muchas cosas antes de manejarse en el website                          |  1 |  2 |  4 |  2 |  2 |
-|    |                                                             Valoración final (SUS Score) | 95 | 72.5 | 47.5 | 70 | 52.5 |
+|    | PREGUNTAS                                                                                |  1 | 2 |
+|----|------------------------------------------------------------------------------------------|:--:|:--:|
+|  1 | Creo que me gustará visitar con frecuencia este website                                  | 1 |  4 |
+|  2 | Encontré el website innecesariamente complejo                                            | 4 |  4 |
+|  3 | Pensé que era fácil utilizar este website                                                | 4 |  4 |
+|  4 | Creo que necesitaría del apoyo de un experto para recorrer el website                    | 1 |  1 |
+|  5 | Encontré las funciones del website bastante bien integradas                              | 1 |  4 | 
+|  6 | Pensé que había demasiada inconsistencia en el website                                   | 5 |  1 |
+|  7 | Imagino que la mayoría de las personas aprenderían muy rápidamente a utilizar el website | 2 |  4 |
+|  8 | Encontré el website muy grande al recorrerlo                                             | 2 |  4 |
+|  9 | Me sentí muy confiado en el manejo del website                                           | 3 |  4 | 
+| 10 | Necesito aprender muchas cosas antes de manejarse en el website                          | 2 |  4 |
+|    |                                                             Valoración final (SUS Score) | 45 | 47.5 |
 
-  Los resultados de los usuarios que han probado MeetUs reflejan que la aplicación es funcional y adecuada para varias edades, sin embargo para algunos usuarios resulta demasiado grande al recorrerla y pensaban que iba a ser más fácil navegar por ella, debido a su gran número de opciones . La valoración media es favorable y denota una usabilidad aceptable.
+  Los resultados de los usuarios que han probado la web son bastante parecidos, y en general no son especialmente buenos, aunque el usuario 2 no probó toda la aplicación, ya que no usó el buscador de eventos ni la revista. 
+
+### Exposición de problemas
 
 
+  
 ### Conclusiones de usabilidad
 
   Los resultados de los usuarios que han probado MeetUs son bastante consistentes y parecen divididos en dos grupos, reflejan que la aplicación es funcional y adecuada para varias edades, pero para algunos usuarios resulta demasiado grande al recorrerla y pensaban que iba a ser más fácil navegar por ella, tal vez debido a un gran número de páginas u opciones que pueden resultar contraproducentes al hacer el sitio complejo y agobiar al usuario.
