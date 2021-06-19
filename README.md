@@ -11,6 +11,8 @@ Hace click en un evento, aunque sea en Granada está harta y le da igual, ve que
 
 
 # Ausencia de landing page
+He visto que, aparte de los demás problemas detectados obviamente en el apartado anterior, la página inicial tiene una sobrecarga de información y es visualmente muy poco atractiva en cuanto a saber donde están las cosas, aunque está muy bien el buscador, pero especialmente para los usuarios poco experimentados en tecnología puede resultar dificil. Por eso he hecho, no una landing page en sí pero sí una página inicial que creo que, siguiendo el diseño de la web y con pocos cambios, mejora esa primera impresión:
+![imagen](https://user-images.githubusercontent.com/79611016/122657531-8f893200-d164-11eb-9a9b-c5f6a4d74e11.png)
 
 # Análisis de accesibilidad
 
