@@ -32,7 +32,7 @@ Opciones de accesibilidad: no disponibles.
 
 Opciones de ayuda y contacto: sí están disponibles y a la vista.
 
-Pruebas con WAVE:
+Pruebas con [WAVE](https://wave.webaim.org/): 
 - Vemos que hay 22 errores de contraste
 - 5 errores de etiquetas, texto alternativo y un botón vacío
 - Varios textos redundantes, imágenes sin descripción y botones sin etiquetas (este apartado es muy importante para la función de texto hablado para las personas ciegas, porque aunque usen una aplicación propia para eso no podrán leer la web)
@@ -61,7 +61,7 @@ En general vemos que la accesibilidad no es algo que se haya tenido especialment
 |--------------|----------------|-------------|----------------------------------------------------------------|----------------------|-------------------------------------|-------------------|-----------|
 |            1 | Hombre (16-30) | Estudiante  |          Bachillerato                | Intermedio           | Windows, Android          | Yuzin            |  (95)    |
 |            2 | Mujer (45-60)  | Enfermera |           Universitarios                   | Intermedio             | Window, IOS, Tablet | Yuzin             | (47,5)|
-  |
+  
 
 
 ### Resultado del cuestionario SUS
