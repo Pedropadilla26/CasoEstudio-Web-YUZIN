@@ -42,11 +42,11 @@ Pruebas con [WAVE](https://wave.webaim.org/):
 En general vemos que la accesibilidad no es algo que se haya tenido especialmente en cuenta a la hora de hacer el re-diseño web.
 
 # Reporte y análisis de usabilidad
-### Resumen ejecutivo
+### Resumen
   
-  He realizado un cuestionario SUS yo mismo y otra persona sobre la web, veremos la evaluación definitiva que recibe con ello, más tarde expondré los problemas principales que veo que tiene la web y las posibles soluciones.
+  He realizado un cuestionario SUS yo mismo y otra persona sobre la web, veremos la evaluación definitiva que recibe con ello,  más tarde expondré los problemas principales que veo que tiene la web en los criterios de usabilidad y la conclusión sobre la usabilidad.
   
-### Metodología
+### Metodología de cuestionario SUS
 
   Los participantes son el mismo estudiante que hace el análisis y otra persona, con la intención de darle algo más de objetividad aunque lo óptimo sería que fueran muchos más.
   Después de que los participantes sean informados de la encuesta y acepten realizarla, prueban la web haciendo clicks en más o menos todo lo que vean y entonces proceden a realizar la encuesta.
@@ -56,7 +56,7 @@ En general vemos que la accesibilidad no es algo que se haya tenido especialment
 
   El cálculo de la puntuación SUS se ha obtenido mediante la tabla excel para calcular proporcionada por el [GitHub mgea/DIU21](https://github.com/mgea/DIU21).
 
-### Usuarios de testeo  
+### Usuarios de testeo para cuestionario SUS
 | #id. usuario | Sexo/edad      | Ocupación   | Estudios | Experiencia internet | Plataforma                          | Prototipo elegido | SUS score |
 |--------------|----------------|-------------|----------------------------------------------------------------|----------------------|-------------------------------------|-------------------|-----------|
 |            1 | Hombre (16-30) | Estudiante  |          Bachillerato                | Intermedio           | Windows, Android          | Yuzin            |  (95)    |
@@ -81,8 +81,21 @@ En general vemos que la accesibilidad no es algo que se haya tenido especialment
 
   Los resultados de los usuarios que han probado la web son bastante parecidos, y en general no son especialmente buenos, aunque el usuario 2 no probó toda la aplicación, ya que no usó el buscador de eventos ni la revista. 
 
-### Exposición de problemas
+### Criterios de usabilidad
+1. Visibilidad estado: Wayfinding (dónde estoy, dónde puedo ir..): el buscador inicial hace que este apartado sea bastante positivo, sin embargo no sabes donde te llevará el menú ni a que apartado corresponden los artículos marcados por "opinión".
+2. ¿Diseño responsivo? ¿Se adapta bien a distintas resoluciones y dispositivos móviles: se adapta bien a los tamaños y a móvil, pero no tiene versión específica móvil lo que hace que tarde mas en cargar
+3. Opciones en menú principal (suficientes /excesivas)?: el problema que presenta la web en este apartado son opciones en el menú principal que no son suficientemente descriptivas por sí mismas, y no sabes donde te van a llevar.
+4. Navegación por menú secundario (sencillo y legible?): no tiene desplegables, si asumimos que es el de debajo tiene un link a descargar revista que está bien, un número para contactar con whatsapp que se ilumina como botón pero no lleva a ningún lado, y el botón de acceder no tiene registro y no facilita el entendimiento del sistema de cuentas de la página.
+5. ¿Tiene información de ayuda? estructura del sitemap, asistentes, cambio idioma, contacto..: tiene varios lugares de contacto, aunque uno de ellos es un número de teléfono lo que no proporciona confianza, si no una sensación de falta de cuidado de la empresa y la web. El resto de cosas no están.
 
+6. ¿Se pueden descargar lasrevistas?: solo la de Granada, lo pone en pequeño y si intentas descargar las otras te lleva a antiguas, no hay historial de anteriores revistas.
+7. ¿Puedes buscar eventos culturales?: sí, pero no aparecen casi y falta feedback.
+8. ¿Se puede buscar información sobre un espacio cultural concreto y acceder a más información?: sí, tiene descripción, información de contacto y enlace a la página web.
+9. ¿Es útil la barra de búsqueda y el selector de búsquedas?: Sí, funcionan sin problemas.
+
+Es necesario destacar también que la página en general tiene problemas de formato: hay textos que se salen de sus contenedores y se esconden debajo de botones u otros sitios, no se sabe a que opinión pertenece cada foto de cada artículo ni a qué apartado pertenecen los artículos. Hay palabras mayúsculas que deberían estar en minúscula y viceversa, lo que da un aspecto descuidado al sitio.
+
+La retroalimentación por las búsquedas fallidas y las revistas también causa frustración, y el sistema de sesiones es difícil de entender hasta que, dandole al apartado de asóciate ves que es de pago y por eso no hay registro. No queda claro donde tendría que ir un nuevo usuario desde el principio.
 
   
 ### Conclusiones de usabilidad
