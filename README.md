@@ -59,7 +59,7 @@ En general vemos que la accesibilidad no es algo que se haya tenido especialment
 ### Usuarios de testeo para cuestionario SUS
 | #id. usuario | Sexo/edad      | Ocupación   | Estudios | Experiencia internet | Plataforma                          | Prototipo elegido | SUS score |
 |--------------|----------------|-------------|----------------------------------------------------------------|----------------------|-------------------------------------|-------------------|-----------|
-|            1 | Hombre (16-30) | Estudiante  |          Bachillerato                | Intermedio           | Windows, Android          | Yuzin            |  (95)    |
+|            1 | Hombre (16-30) | Estudiante  |          Bachillerato                | Intermedio           | Windows, Android          | Yuzin            |  (45)    |
 |            2 | Mujer (45-60)  | Enfermera |           Universitarios                   | Intermedio             | Window, IOS, Tablet | Yuzin             | (47,5)|
   
 
