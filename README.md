@@ -1,7 +1,7 @@
-# Caso de estudio de Yuzin
+# Caso de estudio de la web Yuzin
 Caso de estudio de la web Yuzin (https://yuzin.com/) realizado por Pedro Padilla Reyes para el trabajo final de la asignatura Diseño de Interfaces de Usuario, parte de la rama de Ingeniería del Software en el grado de Ingeniería Informática en la Universidad de Granada.
 
-# Persona y journey map
+## Persona y journey map
 Realizaré una posible experiencia de usuario de una persona imaginaria para ver los posibles problemas que tenga la web.
 He elegido a una versión editada de una de las personas que tenía en prácticas, busca realizar un viaje con su familia en el que quiere hacer distintas actividades y usará la web para buscarlas, esta es su ficha personal:
 ![imagen](https://user-images.githubusercontent.com/79611016/122656254-0c161380-d159-11eb-81bc-678deb626919.png)
@@ -11,11 +11,11 @@ Hace click en un evento, aunque sea en Granada está harta y le da igual, ve que
 
 Está claro que hemos detectado problemas de la web con este journey map que mencionaremos en el análisis de usabilidad.
 
-# Ausencia de landing page
+## Ausencia de landing page
 He visto que, aparte de los demás problemas detectados obviamente en el apartado anterior, la página inicial tiene una sobrecarga de información y es visualmente muy poco atractiva en cuanto a saber donde están las cosas, aunque está muy bien el buscador, pero especialmente para los usuarios poco experimentados en tecnología puede resultar dificil. Por eso he hecho una propuesta de, no una landing page en sí pero sí una página inicial que creo que, siguiendo el diseño de la web y con pocos cambios, mejora esa primera impresión:
 ![imagen](https://user-images.githubusercontent.com/79611016/122657531-8f893200-d164-11eb-9a9b-c5f6a4d74e11.png)
 
-# Análisis de accesibilidad
+## Análisis de accesibilidad
 Haré varias pruebas de accesibilidad en la web, dependiendo de distintas posibles necesidades.
 
 Persona sin visión: necesita un modelo text-to-speech, no hay en la web.
@@ -41,7 +41,7 @@ Pruebas con [WAVE](https://wave.webaim.org/):
 
 En general vemos que la accesibilidad no es algo que se haya tenido especialmente en cuenta a la hora de hacer el re-diseño web.
 
-# Reporte y análisis de usabilidad
+## Reporte y análisis de usabilidad
 ### Resumen
   
   He realizado un cuestionario SUS yo mismo y otra persona sobre la web, veremos la evaluación definitiva que recibe con ello,  más tarde expondré los problemas principales que veo que tiene la web en los criterios de usabilidad y la conclusión sobre la usabilidad.
@@ -82,6 +82,10 @@ En general vemos que la accesibilidad no es algo que se haya tenido especialment
   Los resultados de los usuarios que han probado la web son bastante parecidos, y en general no son especialmente buenos, aunque el usuario 2 no probó toda la aplicación, ya que no usó el buscador de eventos ni la revista. 
 
 ### Criterios de usabilidad
+Según el journey map, vimos tres problemas principales: un desorden del formato de la web, no resultados en las búsquedas y poca información sobre como va la web en general (no sabe como buscar ni a que se deben los menús, aparecen dos precios en un evento y no sabe por qué).
+
+Usaremos unos criterios de usabilidad, que realizaré yo mismo de manera que vea si estos problemas se repiten sin importar el tipo de usuario:
+
 1. Visibilidad estado: Wayfinding (dónde estoy, dónde puedo ir..): el buscador inicial hace que este apartado sea bastante positivo, sin embargo no sabes donde te llevará el menú ni a que apartado corresponden los artículos marcados por "opinión".
 2. ¿Diseño responsivo? ¿Se adapta bien a distintas resoluciones y dispositivos móviles: se adapta bien a los tamaños y a móvil, pero no tiene versión específica móvil lo que hace que tarde mas en cargar
 3. Opciones en menú principal (suficientes /excesivas)?: el problema que presenta la web en este apartado son opciones en el menú principal que no son suficientemente descriptivas por sí mismas, y no sabes donde te van a llevar.
@@ -99,8 +103,8 @@ La retroalimentación por las búsquedas fallidas y las revistas también causa 
 
   
 ### Conclusiones de usabilidad
-
-  Los resultados de los usuarios que han probado MeetUs son bastante consistentes y parecen divididos en dos grupos, reflejan que la aplicación es funcional y adecuada para varias edades, pero para algunos usuarios resulta demasiado grande al recorrerla y pensaban que iba a ser más fácil navegar por ella, tal vez debido a un gran número de páginas u opciones que pueden resultar contraproducentes al hacer el sitio complejo y agobiar al usuario.
+  Viendos los resultados del cuestionario SUS y los criterios de usabilidad podemos concluir sin dudas que la web tiene claros problemas de usabilidad, pues aunque en realidad "funciona" y se puede usar, no es fácil, intuitivo ni especialmente agradable usarla para obtener información, e incluso aparecen varios precios y formatos diferentes sin explicación. Aunque el buscador ayuda mucho al uso de la aplicaicón, falta consistencia y claridad.
   
-  La valoración media es favorable y denota una usabilidad aceptable, pero hay que tener en cuenta esos problemas que denotan los resultados del cuestionario menos favorables que pueden ayudar a ver las posibles mejoras de la aplicación.
+  
+  En conclusión final, hemos visto que una persona puede tener confusión y estrés al visitar la página web, se ve claro que la accesibilidad no ha sido una prioridad al diseñarla, una landing page haría la página mucho más cercana al usuario y la usabilidad tiene muchos problemas aunque la búsqueda ayuda a que siga funcionando. Creo que esto determina que el rediseño no ha sido suficientemente exitoso y para que lo fuera se tendrían que arreglar los problemas mencionados, 
 
